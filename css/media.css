@@ -1,0 +1,121 @@
+@media (max-width:920px) {
+    .advantage__title {
+        margin: 70px 0 0 0;
+    }
+}
+
+@media (max-width:860px) {
+    .header {
+        top: 30px;
+    }
+    .advantage__title {
+        margin: 20px 0 0 0;
+        font-size: 37px;
+    }
+    .skills {
+        padding: 60px 0;
+    }
+    .skills__card-desk {
+        line-height: 23px;
+    }
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio__example-box {
+        margin: 55px auto 0;
+    }
+    .portfolio__example-box:first-of-type {
+        margin-top: 35px;
+    }
+    .portfolio__link p {
+        margin: 13px 0 0 0;
+        font-size: 17px;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    .socials {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:768px) {
+    body.lock {
+        overflow: hidden;
+      }
+    
+    .nav__item {
+    padding: 60px 30px;
+    position: fixed;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: block;
+    overflow: auto;
+    transition: all 0.2s;
+    z-index: 1;
+    }
+    .nav__item.active {
+        top: 0;
+    }
+    .list__item {
+        margin: 40px 0;
+    }
+    .list__item-link::after {
+        display: none;
+    }
+    .list__item:nth-of-type(1) {
+        margin-top: 0;
+    }
+    .nav__item a {
+        font-size: 34px;
+        line-height: 51px;
+        font-weight: 600;
+        color: #828282;
+    }
+
+
+    .burger {
+        display: block;
+    }
+    .advantage {
+        padding: 135px 0 0 0;
+    }
+    .advantage__content {
+        flex-direction: column;
+    }
+    .advantage__content-specification {
+        max-width: 100%;
+    }
+    .advantage__portrait {
+        margin: 0 auto;
+    }
+
+    .card__container {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 80%;
+    }
+    .skills__card-title {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:465px) {
+    .header {
+        top: 40px;
+    }
+    .advantage {
+        padding: 125px 0 0 0;
+    }
+    .advantage__title {
+        margin: 0;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .advantage__portrait {
+        margin-top: 20px;
+    }
+}
